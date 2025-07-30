@@ -1,10 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>USAFV Armed Forces</title>
+  <meta name="description" content="Official website of the USAFV Armed Forces – defending the nation and supporting veterans with honor and service." />
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -12,26 +12,31 @@
       padding: 0;
       background-color: #f4f4f4;
     }
+
     header {
       background-color: #002147;
       color: white;
-      padding: 20px 0;
+      padding: 20px 10px;
       text-align: center;
     }
+
     header img {
       height: 80px;
       vertical-align: middle;
     }
+
     header h1 {
-      display: inline;
+      display: inline-block;
       margin-left: 20px;
       font-size: 2em;
       vertical-align: middle;
     }
+
     nav {
       background-color: #003366;
       overflow: hidden;
     }
+
     nav a {
       float: left;
       display: block;
@@ -40,15 +45,31 @@
       padding: 14px 20px;
       text-decoration: none;
     }
+
     nav a:hover {
       background-color: #0055a5;
+      color: #ffcc00;
     }
+
     main {
       padding: 20px;
+      margin-bottom: 80px; /* prevent content hiding behind fixed footer */
     }
+
     section {
       margin-bottom: 40px;
     }
+
+    h2 {
+      color: #002147;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
     footer {
       background-color: #002147;
       color: white;
@@ -57,6 +78,24 @@
       position: fixed;
       bottom: 0;
       width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+
+      header h1 {
+        display: block;
+        margin-top: 10px;
+        font-size: 1.5em;
+      }
+
+      header img {
+        height: 60px;
+      }
     }
   </style>
 </head>
@@ -78,11 +117,18 @@
   <main>
     <section id="about">
       <h2>About USAFV</h2>
-      <p>The United States Air Force (USAF) is the air service branch of the United States Department of Defense.[15] It is one of the six United States Armed Forces and one of the eight uniformed services of the United States. Tracing its origins to 1 August 1907, as a part of the United States Army Signal Corps, the USAF was established by transfer of personnel from the Army Air Forces with the enactment of the National Security Act of 1947. It is the second youngest branch of the United States Armed Forces[e] and the fourth in order of precedence. The United States Air Force articulates its core missions as air supremacy, global integrated intelligence, surveillance and reconnaissance, rapid global mobility, global strike, and command and control.
-
-The Department of the Air Force, which serves as the USAF's headquarters and executive department, is one of the three military departments of the Department of Defense. The Department of the Air Force is headed by the civilian secretary of the Air Force, who reports to the secretary of defense and is appointed by the president with Senate confirmation. The highest-ranking military officer in the Air Force is the chief of staff of the Air Force, who exercises supervision over Air Force units and serves as one of the Joint Chiefs of Staff. As directed by the secretary of defense and secretary of the Air Force, certain Air Force components are assigned to unified combatant commands. Combatant commanders are delegated operational authority of the forces assigned to them, while the secretary of the Air Force and the chief of staff of the Air Force retain administrative authority over their members.
-
-Along with conducting independent air operations, the United States Air Force provides air support for land and naval forces and aids in the recovery of troops in the field. As of 2020, the service operates approximately 5,500 military aircraft[6] and approximately 400 ICBMs.[16] The world's largest air force, it has a $179.7 billion budget[17][18][19] and is the second largest service branch of the U.S. Department of Defense, with 321,848 active duty airmen,[f][3] 147,879 civilian personnel,[g] 68,927 reserve airmen,[h][3] 105,104 Air National Guard airmen,[i][3] and approximately 65,000 Civil Air Patrol auxiliaries.[5]</p>
+      <p>
+        The United States Air Force (USAF) is the air service branch of the U.S. Department of Defense. It is one of the six branches of the U.S. Armed Forces and one of the eight uniformed services.
+      </p>
+      <p>
+        Established on September 18, 1947, through the National Security Act, the USAF originated from the Army Air Forces and has since become the world’s largest air force. Its core missions include air superiority, global intelligence and surveillance, rapid mobility, strategic strike, and command and control.
+      </p>
+      <p>
+        The Department of the Air Force, led by a civilian Secretary and overseen by the Chief of Staff, is part of the DoD’s military structure. Operational command is delegated to unified combatant commands, while administrative control remains with the Secretary and the Chief of Staff.
+      </p>
+      <p>
+        In addition to combat operations, the USAF provides air support for ground and naval forces and engages in search and rescue missions. As of 2020, it operates over 5,500 aircraft, approximately 400 ICBMs, and has more than 600,000 active, reserve, guard, and civilian personnel.
+      </p>
     </section>
 
     <section id="branches">
@@ -108,12 +154,16 @@ Along with conducting independent air operations, the United States Air Force pr
 
     <section id="veterans">
       <h2>Veteran Services</h2>
-      <p>USAFV honors the service of all veterans. We offer support programs to those who have served.</p>
+      <p>USAFV honors the service of all veterans. We offer support programs, job assistance, healthcare access, and retirement benefits to those who have served.</p>
     </section>
 
     <section id="contact">
       <h2>Contact Us</h2>
-      <p>Email: usavolunteers@gmail.com<br />Phone: (714) 845-5566<br />Address: 13199 Brookhurst St, Garden Grove, CA 92843.</p>
+      <p>
+        Email: <a href="mailto:usavolunteers@gmail.com">usavolunteers@gmail.com</a><br />
+        Phone: (714) 845-5566<br />
+        Address: 13199 Brookhurst St, Garden Grove, CA 92843
+      </p>
     </section>
   </main>
 
