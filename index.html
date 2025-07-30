@@ -1,41 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>USAFV Gallery</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>USAFV Armed Forces</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #002147;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+      vertical-align: middle;
+    }
+    header h1 {
+      display: inline;
+      margin-left: 20px;
+      font-size: 2em;
+      vertical-align: middle;
+    }
+    nav {
+      background-color: #003366;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #0055a5;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    footer {
+      background-color: #002147;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-
-  <header class="small-header">
-    <div class="container">
-      <h1>Volunteer Photo Gallery</h1>
-      <p>Moments of service, unity, and gratitude</p>
-      <a href="index.html" class="btn">Back to Home</a>
-    </div>
+  <header>
+    <img src="usafv-logo.png" alt="USAFV Logo" />
+    <h1>USAFV Armed Forces</h1>
   </header>
 
-  <section class="gallery">
-    <div class="container">
-      <h2>Upload a Photo</h2>
-      <form>
-        <input type="file" accept="image/*">
-        <button class="btn" type="submit" disabled>Upload (Coming Soon)</button>
-      </form>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#branches">Branches</a>
+    <a href="#missions">Missions</a>
+    <a href="#recruitment">Recruitment</a>
+    <a href="#veterans">Veteran Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-      <h2 style="margin-top: 40px;">Recent Photos</h2>
-      <div class="grid">
-        <img src="images/photo1.png" alt="Volunteers 1">
-        <img src="images/photo2.png" alt="Volunteers 2">
-        <!-- Add more photos as needed -->
-      </div>
-    </div>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About USAFV</h2>
+      <p>The USAFV Armed Forces is a dedicated military organization committed to national security, service, and honor. We uphold the values of courage, integrity, and unity across all our operations.</p>
+    </section>
+
+    <section id="branches">
+      <h2>Branches</h2>
+      <ul>
+        <li>Army Division</li>
+        <li>Air Command</li>
+        <li>Naval Unit</li>
+        <li>Special Operations Forces</li>
+        <li>Cybersecurity Command</li>
+      </ul>
+    </section>
+
+    <section id="missions">
+      <h2>Missions</h2>
+      <p>Our missions include national defense, international peacekeeping, humanitarian aid, disaster response, and technological innovation to protect and advance the interests of our nation.</p>
+    </section>
+
+    <section id="recruitment">
+      <h2>Recruitment</h2>
+      <p>We are looking for dedicated individuals who are ready to serve. Visit our recruitment center to explore careers, eligibility criteria, and benefits.</p>
+    </section>
+
+    <section id="veterans">
+      <h2>Veteran Services</h2>
+      <p>USAFV honors the service of all veterans. We offer support programs, healthcare access, job assistance, and retirement benefits to those who have served.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: info@usafv.org<br />Phone: (123) 456-7890<br />Address: 1234 Liberty Ave, Washington, D.C.</p>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 USAFV | United Services Aid for Families & Veterans</p>
+    <p>&copy; 2025 USAFV Armed Forces. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
